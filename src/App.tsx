@@ -5,6 +5,7 @@ import PiePlot from "./components/PiePlot";
 import BarPlot from './components/BarPlot';
 import RadarPlot from './components/RadarPlot';
 import BubblePlot from './components/BubblePlot';
+import MaterialUI from './components/MaterialUI';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BarPlot />
       <RadarPlot />
       <BubblePlot />
+      <MaterialUI />
     </div>
   );
 }
